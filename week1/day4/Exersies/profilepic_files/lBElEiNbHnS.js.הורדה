@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("createCometComposerWhatsAppDeeplinkEntity",[],(function(a,b,c,d,e,f){"use strict";var g="PageWhatsAppNumber";function a(a,b,c){return c.createEntity("MENTION","IMMUTABLE",{entType:g,id:a})}f["default"]=a}),66);
+__d("PagesCometComposerEditDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5190686081007975"}),null);

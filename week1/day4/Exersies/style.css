@@ -1,0 +1,133 @@
+*{
+
+}
+.exercise1{
+	border: solid black 5px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size: 40px;
+}
+.greenbox{
+	text-align: center;
+	border: solid green 2px;
+	background: green; 
+	width: 100%;
+}
+.purplebox{
+	text-align: center;
+	border: solid purple 2px;
+	background: purple;
+	height: 35%;
+	width: 45%;
+}
+.pinkbox{
+	text-align: center;
+	border: solid pink 2px;
+	background: pink;
+	width: 100%;
+}
+.exercise2{
+	border: solid black 5px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items:flex-end;
+	flex-wrap: wrap;
+	font-size: 40px;
+	
+}
+.numone{
+	text-align: center;
+	color: white;
+	border: solid black; 2px;
+	background: black;
+	width: 99%;
+	bo
+
+}
+.numtwo{
+	;
+	text-align: right;
+	color:black;
+	border: solid green; 2px;
+	background: green;
+	width: 13%; 
+
+}
+.numthree{
+	text-align: center;
+	color: white;
+	border: solid black; 2px;
+	background: black;
+	width: 99%;
+
+}
+.exercise3{
+	border: solid black 5px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size: 20px;
+}
+
+.logo{
+	color: white;
+	background: blue;
+	border: solid blue 2px;
+	
+}
+
+.team{
+	color: white;
+	border: solid cyan 2px;
+	background: cyan;
+
+}
+
+.products{
+	color: white;
+	border: solid red 2px;
+	background: red;
+
+}
+.logo:hover ,.team:hover ,.products:hover{
+	color: black;
+	border: solid black 5px ;
+
+}
+.exercise4{
+	border: solid black 5px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size: 40px
+}
+
+.one{
+	text-align: center;
+	border: solid green 2px;
+	background: green; 
+	width: 60%;
+}
+.two{
+	text-align: center;
+	border: solid blue; 2px;
+	background: blue; 
+	align-self: stretch;
+}
+.three{	text-align: center;
+	border: solid green 2px;
+	background: green; 
+	width: 60%;
+}
