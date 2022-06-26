@@ -1,0 +1,123 @@
+*{
+
+}
+.all{
+   border-top: solid black 7px;
+   border-bottom: solid black 7px;
+
+}
+.all{
+    border: solid black 3px;
+}
+.exercise1{
+
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 40px;
+}
+.greenbox{
+    text-align: center;
+    border: solid black 3px;
+    background: yellow; 
+
+}
+.purplebox{
+    text-align: center;
+    border: solid black 3px;
+    background: yellow;
+
+
+}
+.pinkbox{
+    text-align: center;
+    border: solid black 3px;
+    background: yellow;
+
+}
+.blackbox{
+ text-align: center;
+ border: solid black 3px;
+ background: yellow;
+}
+.exercise2{
+
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-end;
+    flex-wrap: wrap;
+    font-size: 40px;
+    
+}
+.numone{
+  text-align: center;
+  border: solid black 3px;
+  background: yellow;
+
+
+}
+.numtwo{
+    ;
+    text-align: center;
+    border: solid black 3px;
+    background: yellow;
+
+}
+.numthree{
+ text-align: center;
+ border: solid black 3px;
+ background: yellow;
+
+
+}
+.numfour{
+  text-align: center;
+  border: solid black 3px;
+  background: yellow;
+
+
+}
+
+.exercise3{
+
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+
+}
+
+.one{
+    text-align: center;
+    border: solid black 3px;
+    background: yellow;
+    margin: 2em; 
+
+}
+.two{
+    text-align: center;
+    border: solid black 3px;
+    background: yellow; 
+    margin: 2em; 
+
+}
+.three{ text-align: center;
+   border: solid black 3px;
+   background: yellow; 
+   margin: 2em; 
+
+}
+.four{ text-align: center;
+   border: solid black 3px;
+   background: yellow;
+   margin: 2em;  
+
+}
