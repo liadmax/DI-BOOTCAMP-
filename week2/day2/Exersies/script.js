@@ -25,14 +25,14 @@ if (z % 2 == 0){
 	console.log('z is an odd number')
 };
 //exercise3
-let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
-let userName ='' 
-if(user = 0){
+let users = [ "Lea123", "Princess45", "cat&doglovers", "helooo@000"];
+console.log(users.length)
+if(users.length == 0){
 	console.log('no one is online')
-}else if ( user = 1) {
+}else if ( users.length == 1) {
 	console.log(users + ' is online')
 	
-}else if (user >= 2 ) {
+}else if (users.length >= 2 ) {
 	console.log(users + ' are online')
 	
 };
