@@ -26,13 +26,14 @@ if (z % 2 == 0){
 };
 //exercise3
 let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
-let userName = 
-if(users = 0){
+let userName ='' 
+if(user = 0){
 	console.log('no one is online')
-}else if (users = 1) {
+}else if ( user = 1) {
 	console.log(users + ' is online')
 	
-}else if (user <= 2) {
+}else if (user >= 2 ) {
 	console.log(users + ' are online')
 	
 };
+//exercise 4
