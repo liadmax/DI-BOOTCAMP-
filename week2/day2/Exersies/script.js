@@ -27,13 +27,16 @@ if (z % 2 == 0){
 //exercise3
 let users = [ "Lea123", "Princess45", "cat&doglovers", "helooo@000"];
 console.log(users.length)
-if(users.length == 0){
+if(users.length === 0){
 	console.log('no one is online')
-}else if ( users.length == 1) {
+}else if ( users.length === 1) {
 	console.log(users + ' is online')
 	
-}else if (users.length >= 2 ) {
+}else if (users.length === 2 ) {
 	console.log(users + ' are online')
+	
+}else if (users.length > 2) {
+	console.log(`${users[0]} and ${users [1]} are online ${users.length -2} more are also online`)
 	
 };
 //exercise 4

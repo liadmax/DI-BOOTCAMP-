@@ -5,7 +5,7 @@ let wordBad = 5;
 
 if(wordBad > wordNot){
 	sentence[3]= null
-	sentence [4]=null
+	sentence [4]= null
 	sentence [5]= 'good'
 	console.log(sentence)
 }else {
