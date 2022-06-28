@@ -11,3 +11,6 @@ if(wordBad > wordNot){
 }else {
 	console.log(sentence)
 };
+/*
+next time try to make it more generic and use javascript built in functions for example wordnot = sentence.indexOf() the sentence was supposed to be a string
+*/
