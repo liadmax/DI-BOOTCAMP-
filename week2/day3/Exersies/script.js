@@ -90,5 +90,22 @@ let building = {
 console.log(building.numberOfFloors);
 console.log(building.numberOfAptByFloor['firstFloor'] + building.numberOfAptByFloor['thirdFloor'] )
 console.log(building.nameOfTenants[1]);
-console.log(building.numberOfRoomsAndRent['dan'] )//***
-if () {}
+console.log(building.numberOfRoomsAndRent.dan[0] )//***
+if (building.numberOfRoomsAndRent.sarah[1] + building.numberOfRoomsAndRent.david[1] > building.numberOfRoomsAndRent.dan[1]) {
+	building.numberOfRoomsAndRent.dan[1] = 1200
+	console.log(building.numberOfRoomsAndRent)
+}else {
+	console.log('rent stays the same.')
+};
+//exercise 4
+let family = {
+	familyMembers : 6,
+	kidsInFamily : 3,
+	fName:"Bhatiya"
+}
+
+for (let key in family){
+    // console.log(key); //display key of the object.
+    console.log(family[key]); // display values of the object. 
+}
+
