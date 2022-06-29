@@ -135,11 +135,12 @@ function rentalCarCost(){
 	}
 
 }
-
+hotelCost()
+planeRideCost()
+rentalCarCost()
 let totalCost = function totalVacationCost(){
-	rentalCarCost()  planeRideCost()  hotelCost()
 
-	alert(`your total for this vecation is ${totalCost}`)
+	alert(`your total for this vecation is a lot`)
 }
 
 totalCost()
