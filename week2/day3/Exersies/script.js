@@ -8,9 +8,9 @@ console.log(people[0])
 console.log(people.slice(1,3));
 console.log(people.indexOf('Foo'));
 //it returns -1 becuse the string dosent exists in the array so the return is -1.
-
-let last = people[3]
-console.log(last)
+ // people =[liad , mary ,devon ,jason]
+ let last = people[3]
+ console.log(last)
 //part 1
 for(let counter = 1;counter <= 4; counter ++){
 	if (counter === 1) {
@@ -26,7 +26,43 @@ for(let counter = 1;counter <= 4; counter ++){
 	}else if (counter === 4) {
 
 		console.log(people[3])	
-	}
+	}break;
+
+////////////////////////
+
+let people = ['Greg', 'Mary', 'Devon', 'James'];
+for( let peopleEach = 0;  peopleEach < peopleLoop.length; peopleEach++){
+	console.log(peopleLoop[peopleEach]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 };
 for(let count = 1; count <= 4;count ++){
