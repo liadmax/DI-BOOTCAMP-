@@ -1,5 +1,21 @@
-function sayHi(sale) {
-  alert( sale );
+function hello(){
+  alert('hello world')
 }
+setTimeout(hello, 2000 );
 
-setTimeout(sayHi, 5000, 'The sales end in 10min !'); //  calls sayHi() after one second --> Hello, John
+function add(){
+  let adding = document.getElementById('container').append('hello world')
+  
+}
+setTimeout(add, 2000);
+
+function satrt(){
+
+
+  let more = document.getElementById('container').append('hello world ')
+  let set = more
+  set = setInterval(more,2000)
+}
+function stop(){
+  clearInterval(set);
+}
