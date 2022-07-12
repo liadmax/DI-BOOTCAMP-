@@ -58,15 +58,21 @@
 
 
 function makeJuice (){
+	let size = prompt('what size drink do you want?')
+	addIngredients()
 	function addIngredients (){
-		let size = 'medium'
-		let ingredientOne = 'orange'
-		let ingredientTwo =''
-		let ingredientThree = ''
-
+		
+		let ingredientOne = prompt('#1 select the first ingredient')
+		let ingredientTwo = prompt('#2 select the second ingredient')
+		let ingredientThree = prompt('#3 select the third ingredient')
+		let divDrink =document.createElement('div')
+		let newH1 = document.createElement('h1')
+		let drink = document.createTextNode(`The client wants a ${size} juice, containing ${ingredientOne}, ${ingredientTwo}, ${ingredientThree}"`)
+		console.log(drink)
 	}
 
 }
+makeJuice()
 
 
 
