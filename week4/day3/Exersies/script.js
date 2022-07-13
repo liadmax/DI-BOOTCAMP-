@@ -35,8 +35,9 @@ console.log(justFullStack)
 
 let epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
 
+const sentence = epic.reduce((acc ,currentValue) => `${acc} ${currentValue}`) 
+console.log(sentence)
 
 
 
 ///exeercise 3
-
