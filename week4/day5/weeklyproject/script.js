@@ -1,5 +1,6 @@
- const robots = [
- {
+
+const robots = [
+{
   id: 1,
   name: 'Leanne Graham',
   username: 'Bret',
@@ -71,3 +72,46 @@
 }
 ];
 
+(function () {
+  const input = document.getElementById("searchInput");
+  robots.forEach((v) => addRobot(v));
+  input.addEventListener("input", displaying);
+})();
+
+function displaying(event) {
+  event.preventDefault();
+  robots
+  .filter(
+    (v) => !v.name.toLowerCase().includes(event.target.value.toLowerCase())
+    )
+  .forEach((v) => document.getElementById(v.id).classList.add("hidden"));
+  robots
+  .filter((v) =>
+    v.name.toLowerCase().includes(event.target.value.toLowerCase())
+    )
+  .forEach((v) => document.getElementById(v.id).classList.remove("hidden"));
+}
+
+function addRobot({ id, name, email, image }) {
+  const main = document.getElementById("main");
+
+  let newCard = document.createElement("div");
+  newCard.setAttribute("id", id);
+
+  let newImg = document.createElement("img");
+  newImg.setAttribute("src", image);
+
+  let newName = document.createElement("h2");
+  let nameTxt = document.createTextNode(name);
+  newName.appendChild(nameTxt);
+
+  let newEmail = document.createElement("h4");
+  let emailTxt = document.createTextNode(email);
+  newEmail.appendChild(emailTxt);
+
+  newCard.appendChild(newImg);
+  newCard.appendChild(newName);
+  newCard.appendChild(newEmail);
+
+  main.appendChild(newCard);
+};
