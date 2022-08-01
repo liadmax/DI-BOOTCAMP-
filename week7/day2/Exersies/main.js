@@ -2,12 +2,19 @@
 
 
 //exercise 3
-const express = require("express");
+const http = require("http");
 
-const app = express();
 
-app.get("/", (req, res) => {
-  res.send(`<h1>This is an HTML tag</h1>`);
+const all = 'this is an HTML tag'
+
+const server = http.createServer((req, res) => {
+    res.setHeader("Content-Type", "text/html");
+//   console.log("running inside server");
+
+    res.write(all[i]);
+
+
+res.end();
 });
 
 app.listen(3000, () => {
